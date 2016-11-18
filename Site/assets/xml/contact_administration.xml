@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<contact>
+		<nom>Hubert Gourmelon</nom>
+		<poste>Secrétariat</poste>
+		<icones>call</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.07.52.31.34</telephone>
+		<email>brestbretagnehb@gmail.com</email>
+	</contact>
+	<contact>
+		<nom>Jean-François Perfezou</nom>
+		<poste>Commission sportive</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.65.07.05.54</telephone>
+		<email>jf.perfezou@brest-bretagnehandball.fr</email>
+	</contact>
+	<contact>
+		<nom>Réginald Scolari</nom>
+		<poste>Pôle Formation</poste>
+		<icones>school</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.89.19.72.41</telephone>
+		<email>reginald.scolari@brest-bretagnehandball.fr</email>
+	</contact>
+	<contact>
+		<nom>Loïc Gardey</nom>
+		<poste>Centre Formation</poste>
+		<icones>school</icones>
+		<nbinfo>E</nbinfo>
+		<telephone></telephone>
+		<email>loic.gardey@gmail.com</email>
+	</contact>
+	<contact>
+		<nom>Jean-Luc Stéphan</nom>
+		<poste>Commission arbitrage</poste>
+		<icones>style</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.33.60.94.73</telephone>
+		<email>jl.stephan@free.fr</email>
+	</contact>
+	<contact>
+		<nom>Hélène Kérézéon</nom>
+		<poste>Commission animation</poste>
+		<icones>local_pizza</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.63.04.90.06</telephone>
+		<email>helene.kerezeon@orange.fr</email>
+	</contact>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<admin>
+		<nom>Hubert Gourmelon</nom>
+		<poste>Secrétariat</poste>
+		<icones>call</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.07.52.31.34</telephone>
+		<email>brestbretagnehb@gmail.com</email>
+	</admin>
+	<admin>
+		<nom>Jean-François Perfezou</nom>
+		<poste>Commission sportive</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.65.07.05.54</telephone>
+		<email>jf.perfezou@brest-bretagnehandball.fr</email>
+	</admin>
+	<admin>
+		<nom>Réginald Scolari</nom>
+		<poste>Pôle Formation</poste>
+		<icones>school</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.89.19.72.41</telephone>
+		<email>reginald.scolari@brest-bretagnehandball.fr</email>
+	</admin>
+	<admin>
+		<nom>Loïc Gardey</nom>
+		<poste>Centre Formation</poste>
+		<icones>school</icones>
+		<nbinfo>E</nbinfo>
+		<telephone></telephone>
+		<email>loic.gardey@gmail.com</email>
+	</admin>
+	<admin>
+		<nom>Jean-Luc Stéphan</nom>
+		<poste>Commission arbitrage</poste>
+		<icones>style</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.33.60.94.73</telephone>
+		<email>jl.stephan@free.fr</email>
+	</admin>
+	<admin>
+		<nom>Hélène Kérézéon</nom>
+		<poste>Commission animation</poste>
+		<icones>local_pizza</icones>
+		<nbinfo>T+E</nbinfo>
+		<telephone>06.63.04.90.06</telephone>
+		<email>helene.kerezeon@orange.fr</email>
+	</admin>
+	<coach>
+		<nom>Elodie Le Calvé</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.67.55.03.14</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Kathleen Ferrari</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.46.54.35.94</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Fabienne Autenzio</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.63.03.18.19</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Mathilde Cournil</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>07.89.56.09.97</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Christophe Kergus</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.79.16.62.67</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Anne Kergus</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.65.02.21.00</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Antoine Chapus</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.29.87.82.34</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Jean-Michel Berthou</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.29.55.68.18</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Pierre Le Boursicot</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.51.18.15.69</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Julien Nedelec</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.74.46.92.76</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Arnaud Dupiol</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.08.15.19.92</telephone>
+		<email></email>
+	</coach>
+	<coach>
+		<nom>Larbi Kiker</nom>
+		<poste>Entraîneur</poste>
+		<icones>fitness_center</icones>
+		<nbinfo>T</nbinfo>
+		<telephone>06.29.35.95.96</telephone>
+		<email></email>
+	</coach>
+	<web>
+		<nom>Jean-François Perfezou</nom>
+		<poste>Rédacteur</poste>
+		<icones>create</icones>
+		<nbinfo>E</nbinfo>
+		<telephone></telephone>
+		<email>jf.perfezou@brest-bretagnehandball.fr</email>
+	</web>
+	<web>
+		<nom>Arnaud Dupiol</nom>
+		<poste>Centre Formation</poste>
+		<icones>terrain</icones>
+		<nbinfo>E</nbinfo>
+		<telephone></telephone>
+		<email>arnauddupiol1@gmail.com</email>
+	</web>
+	<web>
+		<nom>Jérémy Fumeron</nom>
+		<poste>WebMaster</poste>
+		<icones>code</icones>
+		<nbinfo>E</nbinfo>
+		<telephone></telephone>
+		<email>fumeron.jeremy@live.fr</email>
+	</web>

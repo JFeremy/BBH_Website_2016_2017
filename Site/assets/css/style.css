@@ -1,0 +1,98 @@
+/*####################################*/
+/*#                BODY              #*/
+/*####################################*/
+body {
+  background: url(../images/background_body.png) no-repeat center fixed !important;
+  background-size: cover;
+}
+/*####################################*/
+/*#               HEADER             #*/
+/*####################################*/
+.BBH_title,
+.BBH_title a
+{ text-align: center; }
+.BBH_title a:hover
+{ text-decoration: none; }
+nav.navbar.navbar-default.navbar-fixed-top
+{ min-height: auto; }
+/*####################################*/
+/*#              FOOTER              #*/
+/*####################################*/
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+.img_partenaire:hover,
+.img_social:hover {
+  border-radius: 50%;
+}
+.img_partenaire {
+  height: 2.5em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.img_social {
+  height: 2.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer a
+{ font-style: italic; }
+.footer_section1
+{ font-size: medium; }
+.footer_section2
+{ font-size: small; }
+.footer_section3
+{ font-size: x-small; }
+/*####################################*/
+/*#            CONTAINER             #*/
+/*####################################*/
+.content
+{ padding-top: 6.5em !important; }
+
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+
+/*####################################*/
+/*#              COLOR               #*/
+/*####################################*/
+footer,
+footer a
+{ color: #ffffff !important}
+ul.nav.nav-justified li a:hover,
+.nav.nav-justified>.active a
+{ color: #111111 !important; }
+
+.dropdown-menu>li>a
+{ color: #222222 !important; }
+
+a.navbar-brand
+{ color: #ef6280 !important; }
+
+ul.nav.nav-justified>li>a
+{ color: #AAAAAA !important; }
+
+.BBH_title,
+.BBH_title a
+{ color: #ad3939; }
+.BBH_title a:hover
+{ color: #1aec29; }
+
+/*####################################*/
+/*#          BACKGROUND COLOR        #*/
+/*####################################*/
+.BBH_navbar_scroll
+{ background-color: #000000 !important; }
+.BBH_navbar_top
+{ background-color: transparent !important; }
+
+.container
+{ background-color: rgba(226, 225, 225, 0.88) !important; }
+
+.nav.nav-justified>li>a:focus,
+.nav>li>a:hover,
+.nav.nav-justified>.active,
+ul.dropdown-menu
+{ background-color: rgba(239, 98, 128, 0.85) !important; }
