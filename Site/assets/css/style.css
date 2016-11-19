@@ -13,11 +13,11 @@ body {
 { text-align: center; }
 .BBH_title a:hover
 { text-decoration: none; }
-nav.navbar.navbar-default.navbar-fixed-top {
-  min-height: auto;
-  border-bottom-color: #e2107b !important;
-}
-
+nav.navbar.navbar-default.navbar-fixed-top
+{ min-height: auto; }
+nav.navbar.navbar-default.navbar-fixed-top ,
+.navbar-default .navbar-toggle
+{ border-color: #e2107b !important; }
 /*####################################*/
 /*#              FOOTER              #*/
 /*####################################*/
@@ -91,8 +91,13 @@ a.navbar-brand
 .container
 { background-color: rgba(226, 225, 225, 0.88) !important; }
 
+.navbar-default .navbar-toggle .icon-bar
+{ background-color: #DDDDDD !important; }
+
 .nav.nav-justified>li>a:focus,
 .nav>li>a:hover,
 .nav.nav-justified>.active,
-ul.dropdown-menu
+ul.dropdown-menu,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover
 { background-color: #e2107b !important; }

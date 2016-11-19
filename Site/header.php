@@ -19,7 +19,7 @@
 		<?php //include("popup.php"); ?>
 
 			<!-- Header -->
-			<nav class="navbar navbar-default navbar-fixed-top BBH_navbar_top">
+			<nav id="BBH_navbar" class="navbar navbar-default navbar-fixed-top BBH_navbar_top">
 				<div class="container-fluid">
 					<!-- Titre grands écrans -->
 					<h4 class="BBH_title hidden-xs"><a id="Title_nav" class="Title_nav_effet" href="index.php">Brest Bretagne Handball</a></h4>
@@ -34,7 +34,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<!-- TItre petits écrans -->
-						<a class="navbar-brand visible-xs Title_nav_effet" href="index.php">Brest Bretagne Handball</a>
+						<a class="navbar-brand visible-xs" href="index.php">Brest Bretagne Handball</a>
 					</div>
 
 					<!-- Menu grand écran -->
