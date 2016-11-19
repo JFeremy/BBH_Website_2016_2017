@@ -71,7 +71,7 @@
 						<p class="text-center">&copy; Brest Bretagne Handball Club</p>
 					</div>
 					<div class="col-md-3">
-						<p class="text-center">Concepteur: <a href="mailto:fumeron.jeremy@pve.fr">Jérémy Fumeron</a></p>
+						<p class="text-center">Concepteur: <a href="mailto:fumeron.jeremy@live.fr">Jérémy Fumeron</a></p>
 					</div>
 					<div class="col-md-3">
 						<p class="text-center">Designer: <a href="http://www.arnauddupiol.com/" target="_blank">Arnaud Dupiol</a></p>
@@ -88,6 +88,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<!-- Ajustement de la bar de navigation -->
 		<script src="assets/js/manageNavBar.js"></script>
+		<script src="assets/js/loadTitle.js"></script>
 		<!--script src="assets/js/changeURL.js"></script-->
 
 	</body>
