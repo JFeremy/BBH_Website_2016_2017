@@ -25,6 +25,6 @@ $(document).ready(function() {
     $("nav").removeClass('BBH_navbar_top');
   }
 });
-
+/*
 var titre = sessionStorage.getItem("titre");
-window.parent.document.title = titre;
+window.parent.document.title = titre;*/
