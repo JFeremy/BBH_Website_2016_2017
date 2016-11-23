@@ -9,6 +9,7 @@
 ?>
 	<div class="container">
 
+		<?php include("contact.php"); ?>
 
 	</div>
 
