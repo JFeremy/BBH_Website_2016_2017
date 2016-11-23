@@ -41,20 +41,21 @@
 					<!-- Menu grand écran -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav nav-justified">
-							<li class="active"><a href="page.php?page=index">Accueil</a></li>
-							<li><a href="page.php?page=blog">Fil Info</a></li>
+							<li class="active"><a href="index.php?page=index">Accueil</a></li>
+							<li><a href="index.php?page=blog">Fil Info</a></li>
 							<li role="presentation" class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="page.php?page=club" role="button" aria-haspopup="true" aria-expanded="false">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="index.php?page=club" role="button" aria-haspopup="true" aria-expanded="false">
 									Le Club <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="page.php?page=equipes">Equipes</a></li>
-								<li><a href="page.php?page=entrainements">Entrainements</a></li>
-								<li><a href="page.php?page=salles">Salles</a></li>
+								<li><a href="index.php?page=club">Infomations</a></li>
+								<li><a href="index.php?page=equipes">Equipes</a></li>
+								<li><a href="index.php?page=entrainements">Entrainements</a></li>
+								<li><a href="index.php?page=salles">Salles</a></li>
 							</ul>
 							</li>
-							<li><a href="page.php?page=contact">Astreintes</a></li>
-							<li><a href="page.php?page=contact">Photos</a></li>
-							<li><a href="page.php?page=contact">Contact</a></li>
+							<li><a href="index.php?page=contact">Astreintes</a></li>
+							<li><a href="index.php?page=contact">Photos</a></li>
+							<li><a href="index.php?page=contact">Contact</a></li>
 							<li><a href="http://www.brest-bretagnehandball.fr/" target="_blanc">Pôle Haut Niveau</a></li>
 						</ul>
 
