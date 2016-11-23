@@ -11,6 +11,7 @@
 		<!-- Style perso -->
 		<link rel="stylesheet" href="assets/css/style.css" />
 
+		<script src="https://use.fontawesome.com/eef56b002c.js"></script>
 		<!--script type="text/javascript" src="assets/js/alertjs.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.autoheight.js"></script-->
 	</head>

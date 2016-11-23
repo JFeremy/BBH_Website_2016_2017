@@ -1,12 +1,12 @@
 /* Script permettant d'ajouter les contacts */
-function addContact(id,part,donnees) {
+function addCoach(id,part,equipe,donnees) {
   var id_panel_groupe = 'accordion' + part;
   var div_panel_group = $('<div></div>').
                   addClass('panel-group').
                   attr('id', id_panel_groupe).
                   attr('role', 'tablist').
                   attr('aria-multiselectable', 'true');
-  var nb_row = Math.round(donnees.length / 3);
+  var nb_row = Math.round(equipe.length / 3);
   /* Création des lignes */
   for (var j = 0; j < nb_row; j++) {
       var div_row = $("<div></div>").
@@ -15,8 +15,9 @@ function addContact(id,part,donnees) {
       div_panel_group.append(div_row);
   }
 
+  /* Création des équipes */
   $(id).append(div_panel_group);
-  for (var i = 0; i < donnees.length; i++) {
+  for (var i = 0; i < equipe.length; i++) {
     /* Numéro de la ligne */
     var row =  Math.floor(i / 3);
     var part_name = part + i;
@@ -53,62 +54,69 @@ function addContact(id,part,donnees) {
     var icone = $('<i></i>').
                   attr('id', 'contact').
                   addClass('fa');
-    var name_txt = $('<p></p>');
-    var phone_txt = $('<p></p>');
-    var mail_txt = $('<p></p>');
-    var name_ico = $('<i></i>').
-                  attr('id', 'contact_info').
-                  addClass('fa').
-                  addClass('fa-user-circle');
-    var phone_ico = $('<i></i>').
-                  attr('id', 'contact_info').
-                  addClass('fa').
-                  addClass('fa-phone');
-    var mail_ico = $('<i></i>').
-                  attr('id', 'contact_info').
-                  addClass('fa').
-                  addClass('fa-envelope');
 
     /* Modification des élements */
     div_panel_heading.attr('id', 'heading' + part_name);
-    icone.addClass(donnees[i].icones);
+    icone.addClass(equipe[i].icones);
     title_link.append(icone);
     title_link.attr('href', '#collapse' + part_name).
                attr('aria-controls', 'collapse' + part_name).
                attr('id', part_name);
-               //text(donnees[i].poste);
     div_panel_content.attr('id', 'collapse' + part_name).
                       attr('aria-labelledby', 'heading' + part_name);
-
-    name_txt.append(name_ico).append(donnees[i].nom);
-    phone_txt.append(phone_ico).append(donnees[i].telephone);
-    mail_txt.append(mail_ico).append(donnees[i].email);
 
     /* Association des éléments */
       // Titre
     title_link.append(icone);
-    title_link.append(donnees[i].poste);
+    title_link.append(equipe[i].nom);
     title_link.append(caret);
     div_panel_title.append(title_link);
     div_panel_heading.append(div_panel_title);
-      // Contenue
 
-    div_panel_body.append(name_txt);
-    switch (donnees[i].nbinfo) {
-      case 'T+E':
-        div_panel_body.append(mail_txt);
-        div_panel_body.append(phone_txt);
-        break;
-      case 'T':
-        div_panel_body.append(phone_txt);
-        break;
-      case 'E':
-        div_panel_body.append(mail_txt);
-        break;
-      default:
-        div_panel_body.append(mail_txt);
-        div_panel_body.append(phone_txt);
+    /* Ajout des coach */
+    for (var j = 0; j < donnees.length; j++) {
+      if (donnees[j].poste.includes(equipe[i].id)) {
+        /* Création des éléments */
+        var name_txt = $('<p></p>');
+        var phone_txt = $('<p></p>');
+        var mail_txt = $('<p></p>');
+        var name_ico = $('<i></i>').
+                      attr('id', 'contact_info').
+                      addClass('fa').
+                      addClass('fa-user-circle');
+        var phone_ico = $('<i></i>').
+                      attr('id', 'contact_info').
+                      addClass('fa').
+                      addClass('fa-phone');
+        var mail_ico = $('<i></i>').
+                      attr('id', 'contact_info').
+                      addClass('fa').
+                      addClass('fa-envelope');
+
+        /* Association des éléments */
+          // Contenue
+        div_panel_body.append(name_txt);
+        switch (donnees[j].nbinfo) {
+          case 'T+E':
+            div_panel_body.append(mail_txt);
+            div_panel_body.append(phone_txt);
+            break;
+          case 'T':
+            div_panel_body.append(phone_txt);
+            break;
+          case 'E':
+            div_panel_body.append(mail_txt);
+            break;
+          default:
+            div_panel_body.append(mail_txt);
+            div_panel_body.append(phone_txt);
+        }
+        name_txt.append(name_ico).append(donnees[j].nom);
+        phone_txt.append(phone_ico).append(donnees[j].telephone);
+        mail_txt.append(mail_ico).append(donnees[j].email);
+      }
     }
+
     div_panel_content.append(div_panel_body);
 
     div_panel.append(div_panel_heading);
@@ -120,6 +128,6 @@ function addContact(id,part,donnees) {
     // Gestion des fenêtres
     $('#' + part_name).click(function() {
       reduceContact('.panel_' + part, $(this).attr('href'), $(this).attr('id'));
-  	});
+    });
   }
 }

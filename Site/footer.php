@@ -1,4 +1,4 @@
-	</dive> <!-- .content -->
+	</div> <!-- .content -->
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container-fluid">

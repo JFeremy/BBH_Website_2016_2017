@@ -17,7 +17,7 @@ nav.navbar.navbar-default.navbar-fixed-top
 { min-height: auto; }
 nav.navbar.navbar-default.navbar-fixed-top ,
 .navbar-default .navbar-toggle
-{ border-color: #e2107b !important; }
+{ border-color: rgb(226, 16, 123) !important; }
 /*####################################*/
 /*#              FOOTER              #*/
 /*####################################*/
@@ -53,6 +53,11 @@ footer a
 .content
 { padding-top: 6.5em !important; }
 
+/* * * * CONTACT * * * */
+i#contact, i#contact_info
+{ margin-right: 30px; }
+span#contact
+{ margin-left: 30px; }
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
@@ -64,7 +69,9 @@ footer a
 footer,
 footer a,
 ul.nav.nav-justified li a:hover,
-.nav.nav-justified>.active a
+.nav.nav-justified>.active a,
+li.active a#subNavLink,
+a#subNavLink:hover
 { color: #ffffff !important}
 
 .dropdown-menu>li>a
@@ -75,8 +82,9 @@ ul.nav.nav-justified>li>a
 
 .BBH_title,
 .BBH_title a,
-a.navbar-brand
-{ color: #e2107b !important; }
+a.navbar-brand,
+a#subNavLink
+{ color: rgb(226, 16, 123) !important; }
 .BBH_title a:hover
 { color: #1aec29 !important; }
 
@@ -100,4 +108,25 @@ a.navbar-brand
 ul.dropdown-menu,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover
-{ background-color: #e2107b !important; }
+{ background-color: rgb(226, 16, 123) !important; }
+
+li.active a#subNavLink
+{ background-color: rgb(226, 50, 123) !important; }
+
+
+/*####################################*/
+/*#            BORDER COLOR          #*/
+/*####################################*/
+nav.navbar.navbar-default.navbar-fixed-top ,
+.navbar-default .navbar-toggle,
+.nav.nav-justified>li>a:focus,
+.nav>li>a:hover,
+.nav.nav-justified>.active,
+ul.dropdown-menu,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover
+{ border-color: rgb(226, 16, 123) !important; }
+a#subNavLink
+{ border-bottom-color: rgb(226, 50, 123) !important; }
+li.active a#subNavLink
+{ border-color: rgb(226, 50, 123) !important; }

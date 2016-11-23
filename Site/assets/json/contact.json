@@ -3,7 +3,7 @@
     {
       "nom": "Hubert Gourmelon",
       "poste": "Secrétariat",
-      "icones": "call",
+      "icones": "fa-info-circle",
       "nbinfo": "T+E",
       "telephone":"06.07.52.31.34",
       "email": "brestbretagnehb@gmail.com"
@@ -11,7 +11,7 @@
     {
       "nom": "Jean-François Perfezou",
       "poste": "Commission sportive",
-      "icones": "fitness_center",
+      "icones": "fa-futbol-o",
       "nbinfo": "T+E",
       "telephone":"06.65.07.05.54",
       "email": "jf.perfezou@brest-bretagnehandball.fr"
@@ -19,7 +19,7 @@
     {
       "nom": "Réginald Scolari",
       "poste": "Pôle Formation",
-      "icones": "school",
+      "icones": "fa-users",
       "nbinfo": "T+E",
       "telephone":"06.89.19.72.41",
       "email": "reginald.scolari@brest-bretagnehandball.fr"
@@ -27,7 +27,7 @@
     {
       "nom": "Loïc Gardey",
       "poste": "Centre Formation",
-      "icones": "school",
+      "icones": "fa-graduation-cap",
       "nbinfo": "E",
       "telephone":"",
       "email": "loic.gardey@gmail.com"
@@ -35,7 +35,7 @@
     {
       "nom": "Jean-Luc Stéphan",
       "poste": "Commission arbitrage",
-      "icones": "style",
+      "icones": "fa-hand-peace-o",
       "nbinfo": "T+E",
       "telephone":"06.33.60.94.73",
       "email": "jl.stephan@free.fr"
@@ -43,117 +43,17 @@
     {
       "nom": "Hélène Kérézéon",
       "poste": "Commission animation",
-      "icones": "local_pizza",
+      "icones": "fa-glass",
       "nbinfo": "T+E",
       "telephone":"06.63.04.90.06",
       "email": "helene.kerezeon@orange.fr"
     }
   ],
-
-  "coach": [
-    {
-      "nom": "Elodie Le Calvé",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.67.55.03.14",
-      "email": ""
-    },
-    {
-      "nom": "Kathleen Ferrari",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.46.54.35.94",
-      "email": ""
-    },
-    {
-      "nom": "Fabienne Autenzio",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.63.03.18.19",
-      "email": ""
-    },
-    {
-      "nom": "Mathilde Cournil",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"07.89.56.09.97",
-      "email": ""
-    },
-    {
-      "nom": "Christophe Kergus",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.79.16.62.67",
-      "email": ""
-    },
-    {
-      "nom": "Anne Kergus",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.65.02.21.00",
-      "email": ""
-    },
-    {
-      "nom": "Antoine Chapus",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.29.87.82.34",
-      "email": ""
-    },
-    {
-      "nom": "Jean-Michel Berthou",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.29.55.68.18",
-      "email": ""
-    },
-    {
-      "nom": "Pierre Le Boursicot",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.51.18.15.69",
-      "email": ""
-    },
-    {
-      "nom": "Julien Nedelec",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.74.46.92.76",
-      "email": ""
-    },
-    {
-      "nom": "Arnaud Dupiol",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.08.15.19.92",
-      "email": ""
-    },
-    {
-      "nom": "Larbi Kiker",
-      "poste": "Entraîneur",
-      "icones": "fitness_center",
-      "nbinfo": "T",
-      "telephone":"06.29.35.95.96",
-      "email": ""
-    }
-  ],
-
   "web": [
     {
       "nom": "Jean-François Perfezou",
       "poste": "Rédacteur",
-      "icones": "create",
+      "icones": "fa-pencil-square-o",
       "nbinfo": "E",
       "telephone":"",
       "email": "jf.perfezou@brest-bretagnehandball.fr"
@@ -161,7 +61,7 @@
     {
       "nom": "Arnaud Dupiol",
       "poste": "Designer",
-      "icones": "terrain",
+      "icones": "fa-object-group",
       "nbinfo": "E",
       "telephone":"",
       "email": "arnauddupiol1@gmail.com"
@@ -169,7 +69,7 @@
     {
       "nom": "Jérémy Fumeron",
       "poste": "WebMaster",
-      "icones": "code",
+      "icones": "fa-code",
       "nbinfo": "E",
       "telephone":"",
       "email": "fumeron.jeremy@live.fr"

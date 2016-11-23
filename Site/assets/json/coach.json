@@ -1,0 +1,136 @@
+{
+  "equipe": [
+    {
+      "id" : "9",
+      "nom" : "- 9 ans",
+      "icones" : "fa-child"
+    },
+    {
+      "id" : "11",
+      "nom" : "- 11 ans",
+      "icones" : "fa-child"
+    },
+    {
+      "id" : "13F",
+      "nom" : "- 13 ans Féminin",
+      "icones" : "fa-female"
+    },
+    {
+      "id" : "13G",
+      "nom" : "- 13 ans Masculin",
+      "icones" : "fa-male"
+    },
+    {
+      "id" : "15F",
+      "nom" : "- 15 ans Féminin",
+      "icones" : "fa-female"
+    },
+    {
+      "id" : "15G",
+      "nom" : "- 15 ans Masculin",
+      "icones" : "fa-male"
+    },
+    {
+      "id" : "18FR",
+      "nom" : "- 18 ans Féminin Région",
+      "icones" : "fa-female"
+    },
+    {
+      "id" : "18FN",
+      "nom" : "- 18 ans Féminin Nation",
+      "icones" : "fa-female"
+    },
+    {
+      "id" : "18G",
+      "nom" : "- 18 ans Masculin",
+      "icones" : "fa-male"
+    },
+    {
+      "id" : "SF",
+      "nom" : "Sénior Féminin 3",
+      "icones" : "fa-female"
+    },
+    {
+      "id" : "SG",
+      "nom" : "Sénior Masculin",
+      "icones" : "fa-male"
+    },
+    {
+      "id" : "GLFH",
+      "nom" : "Gardienne LFH",
+      "icones" : "fa-female"
+    }
+  ],
+  "coach": [
+    {
+      "nom": "Elodie Le Calvé",
+      "poste": "9",
+      "nbinfo": "T",
+      "telephone":"06.67.55.03.14",
+      "email": ""
+    },
+    {
+      "nom": "Fabienne Autenzio",
+      "poste": "11",
+      "nbinfo": "T",
+      "telephone":"06.63.03.18.19",
+      "email": ""
+    },
+    {
+      "nom": "Christophe Kergus",
+      "poste": "18G",
+      "nbinfo": "T",
+      "telephone":"06.79.16.62.67",
+      "email": ""
+    },
+    {
+      "nom": "Anne Kergus",
+      "poste": "13F",
+      "nbinfo": "T",
+      "telephone":"06.65.02.21.00",
+      "email": ""
+    },
+    {
+      "nom": "Antoine Chapus",
+      "poste": "9",
+      "nbinfo": "T",
+      "telephone":"06.29.87.82.34",
+      "email": ""
+    },
+    {
+      "nom": "Jean-Michel Berthou",
+      "poste": "15G",
+      "nbinfo": "T",
+      "telephone":"06.29.55.68.18",
+      "email": ""
+    },
+    {
+      "nom": "Pierre Le Boursicot",
+      "poste": "18G,15G",
+      "nbinfo": "T",
+      "telephone":"06.51.18.15.69",
+      "email": ""
+    },
+    {
+      "nom": "Julien Nedelec",
+      "poste": "18FN,15F,SG",
+      "nbinfo": "T",
+      "telephone":"06.74.46.92.76",
+      "email": ""
+    },
+    {
+      "nom": "Arnaud Dupiol",
+      "poste": "15F",
+      "nbinfo": "T",
+      "telephone":"06.08.15.19.92",
+      "email": ""
+    },
+    {
+      "nom": "Larbi Kiker",
+      "poste": "18FR,15G,13G,GLFH,SF",
+      "nbinfo": "T",
+      "telephone":"06.29.35.95.96",
+      "email": ""
+    }
+  ]
+}
