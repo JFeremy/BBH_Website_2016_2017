@@ -58,6 +58,15 @@ i#contact, i#contact_info
 { margin-right: 30px; }
 span#contact
 { margin-left: 30px; }
+
+/*# # # # # ENTRAINEMENT # # # # #*/
+td,th {
+    vertical-align: middle !important;
+    text-align: center;
+}
+/*# # # # # CLUB # # # # #*/
+img.img-responsive
+{ height: 10em;}
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
@@ -71,8 +80,10 @@ footer a,
 ul.nav.nav-justified li a:hover,
 .nav.nav-justified>.active a,
 li.active a#subNavLink,
-a#subNavLink:hover
-{ color: #ffffff !important}
+a#subNavLink:hover,
+#titre_page,
+.dropdown-menu.nav_link>li>a
+{ color: #DDDDDD !important}
 
 .dropdown-menu>li>a
 { color: #222222 !important; }
@@ -93,24 +104,31 @@ a#subNavLink
 /*####################################*/
 .BBH_navbar_scroll
 { background-color: #000000 !important; }
+
 .BBH_navbar_top
 { background-color: transparent !important; }
 
 .container
-{ background-color: rgba(226, 225, 225, 0.88) !important; }
+{ background-color: rgba(226, 225, 225, 0) !important; }
 
 .navbar-default .navbar-toggle .icon-bar
 { background-color: #DDDDDD !important; }
+
+table.table
+{ background-color: rgba(221, 221, 221, 0.75) !important; }
 
 .nav.nav-justified>li>a:focus,
 .nav>li>a:hover,
 .nav.nav-justified>.active,
 ul.dropdown-menu,
 .navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover
+.navbar-default .navbar-toggle:hover,
+.nav_link:hover
 { background-color: rgb(226, 16, 123) !important; }
 
-li.active a#subNavLink
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+li.active a#subNavLink,
 { background-color: rgb(226, 50, 123) !important; }
 
 

@@ -6,8 +6,8 @@ var logo = ["B", "B", "H"];
 var words = title_pos.html().split(" ");
 var array = text.split("");
 var words_length = [words[0].length,
-										words[1].length,
-										words[2].length ];
+					words[1].length,
+					words[2].length ];
 words[0] = "B";
 words[1] = "B";
 words[2] = "H";

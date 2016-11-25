@@ -1,0 +1,64 @@
+{
+  "salle": [
+    {
+      "label" : "Guegueniat",
+      "nom" : "Centre sportif Jean Guegueniat",
+      "latitude" : "48.401944",
+      "longitude" : "-4.4638673",
+      "adresse" : "25 Rue de Quimper",
+      "codePostal" : "29200",
+      "commune" : "Brest",
+      "itineraire" : "https://goo.gl/maps/fmKcCs1i1iA2"
+    },
+    {
+      "label" : "Jacquard",
+      "nom" : "Gymnase Jacquard",
+      "latitude" : "48.402128",
+      "longitude" : "-4.473791",
+      "adresse" : "23 Rue Jules Lesven",
+      "codePostal" : "29200",
+      "commune" : "Brest",
+      "itineraire" : "https://goo.gl/maps/NfTv4aTDKjz"
+    },
+    {
+      "label" : "Pen Ar Streat",
+      "nom" : "Gymnase de Pen Ar Streat",
+      "latitude" : "48.411309",
+      "longitude" : "-4.473238",
+      "adresse" : "Rue du 8 Mai 1945",
+      "codePostal" : "29200",
+      "commune" : "Brest",
+      "itineraire" : "https://goo.gl/maps/qMEQddTwhZr"
+    },
+    {
+      "label" : "Bellevue",
+      "nom" : "Gymnase de Bellevue",
+      "latitude" : "48.405209",
+      "longitude" : "-4.507360",
+      "adresse" : "27 Rue de Savoie",
+      "codePostal" : "29200",
+      "commune" : "Brest",
+      "itineraire" : "https://goo.gl/maps/cbJc9aSKXDT2"
+    },
+    {
+      "label" : "Provence",
+      "nom" : "Gymnase de Provence",
+      "latitude" : "48.4077774",
+      "longitude" : "-4.5178621",
+      "adresse" : "Rue de Rennes",
+      "codePostal" : "29200",
+      "commune" : "Brest",
+      "itineraire" : "https://goo.gl/maps/HUQbdFWHG9N2"
+    },
+    {
+      "label" : "Aréna",
+      "nom" : "Brest Aréna",
+      "latitude" : "48.3874516",
+      "longitude" : "-4.5223974",
+      "adresse" : "140 Boulevard de Plymouth",
+      "codePostal" : "29200",
+      "commune" : "Brest",
+      "itineraire" : "https://goo.gl/maps/LaKk7qRt4io"
+    }
+  ]
+}

@@ -127,7 +127,7 @@ function addCoach(id,part,equipe,donnees) {
 
     // Gestion des fenêtres
     $('#' + part_name).click(function() {
-      reduceContact('.panel_' + part, $(this).attr('href'), $(this).attr('id'));
+      reducePanel('.panel_' + part, $(this).attr('href'), $(this).attr('id'));
     });
   }
 }

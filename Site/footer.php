@@ -1,8 +1,9 @@
-	</div> <!-- .content -->
-		<!-- Footer -->
+		<!-- footer_BEGIN -->
 		<footer class="footer">
+			<!-- container-fluid_BEGIN -->
 			<div class="container-fluid">
 				<div class="row">
+					<!-- reseau_BEGIN -->
 					<div class="col-md-6">
 						<h2 class="text-center">Suivez-nous</h2>
 						<p class="text-center">
@@ -15,7 +16,8 @@
 							<a href="blog.php?blog=/blog/abonnez-vous/" target="_blank" class="icon" title="Newsletter">
 								<img src="assets/images/ico_nl.png" class="img_social" alt="Icône Newsletter" ></a>
 						</p>
-					</div>
+					</div><!-- reseau_END -->
+					<!-- partenaire_BEGIN -->
 					<div class="col-md-6">
 						<h2 class="text-center">Nos partenaires</h2>
 						<p class="text-center">
@@ -28,47 +30,49 @@
 							<a href="http://www.dartfish.tv/ChannelHome.aspx?CR=p71055" class="icon" target="_blank" title="HAND TV">
 								<img src="assets/images/logo_handtv.png" class="img_partenaire" alt="Icône HAND TV" ></a>
 						</p>
-					</div>
+					</div><!-- partenaire_END -->
 				</div>
+				<!-- plansite_BEGIN -->
 				<div class="row">
 					<h2 class="text-center">Plan du site</h2>
 					<div class="col-md-3">
-					  <p class="text-center footer_section1"><a href="#">Accueil</a></p>
-					  <p class="text-center footer_section1"><a href="#">Contact</a></p>
-					  <p class="text-center footer_section1"><a href="#">Pôle haut niveau</a></p>
+						<p class="text-center footer_section1"><a href="index.php?page=accueil">Accueil</a></p>
+						<p class="text-center footer_section1"><a href="index.php?page=contact">Contact</a></p>
+						<p class="text-center footer_section1"><a href="http://www.brest-bretagnehandball.fr/" target="_blank">Pôle haut niveau</a></p>
 					</div>
 					<div class="col-md-3">
 						<p class="text-center footer_section1"><a href="#">Fil info</a></p>
-					  <p class="text-center footer_section2"><a href="#">Catégorie 1</a></p>
+						<p class="text-center footer_section2"><a href="#">Catégorie 1</a></p>
 						<p class="text-center footer_section2"><a href="#">Catégorie 2</a></p>
 						<p class="text-center footer_section2"><a href="#">Catégorie 3</a></p>
 					</div>
 					<div class="col-md-3">
-						<p class="text-center footer_section1"><a href="#">Le Club</a></p>
-						<p class="text-center footer_section2"><a href="#">Les informations</a></p>
-					  <p class="text-center footer_section2"><a href="#">Les entraînements</a></p>
-						<p class="text-center footer_section2"><a href="#">Les salles</a></p>
+						<p class="text-center footer_section1"><a href="index.php?page=club">Le Club</a></p>
+						<p class="text-center footer_section2"><a href="index.php?page=informations">Les informations</a></p>
+						<p class="text-center footer_section2"><a href="index.php?page=entrainements">Les entraînements</a></p>
+						<p class="text-center footer_section2"><a href="index.php?page=salles">Les salles</a></p>
 					</div>
 					<div class="col-md-3">
-					  <p class="text-center footer_section1"><a href="#">Les équipes</a></p>
-					  <p class="text-center footer_section2"><a href="#">Ecole de hand</a></p>
-					  <p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
-					  <p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
+						<p class="text-center footer_section1"><a href="index.php?page=equipes">Les équipes</a></p>
+						<p class="text-center footer_section2"><a href="#">Ecole de hand</a></p>
+						<p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
+						<p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
 
-					  <p class="text-center footer_section2"><a href="#">Féminin</a></p>
-					  <p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
+						<p class="text-center footer_section2"><a href="#">Féminin</a></p>
+						<p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
 						<p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
 						<p class="text-center footer_section3"><a href="#">Equipe 3</a></p>
 
-					  <p class="text-center footer_section2"><a href="#">Masculin</a></p>
-					  <p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
+						<p class="text-center footer_section2"><a href="#">Masculin</a></p>
+						<p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
 						<p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
 						<p class="text-center footer_section3"><a href="#">Equipe 3</a></p>
 					</div>
-				</div>
+				</div><!-- plansite_END -->
+				<!-- conception_BEGIN -->
 				<div class="row">
 					<div class="col-md-3">
-						<p class="text-center">&copy; Brest Bretagne Handball Club</p>
+							<p class="text-center">&copy; Brest Bretagne Handball Club</p>
 					</div>
 					<div class="col-md-3">
 						<p class="text-center">Concepteur: <a href="mailto:fumeron.jeremy@live.fr">Jérémy Fumeron</a></p>
@@ -79,9 +83,9 @@
 					<div class="col-md-3">
 						<p class="text-center">Rédacteur: <a href="mailto:jf.perfezou@brest-bretagnehandball.fr">Jean-François Perfezou</a></p>
 					</div>
-				</div>
-			</div>
-		</footer>
+				</div><!-- conception_END -->
+			</div><!-- container-fluid_END -->
+		</footer><!-- footer_END -->
 
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
