@@ -1,19 +1,19 @@
 <!-- entrainement_BEGIN -->
 <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
         <div class="table-responsive">
             <table class="table">
                 <!-- ligne: Entete -->
                 <tr>
-                    <th>Equipes</th><!-- Equipes -->
-                    <th>Salles</th><!-- Salles -->
+                    <th><a href="index.php?page=equipes">Equipes</a></th><!-- Equipes -->
+                    <th><a href="index.php?page=salles">Salles</a></th><!-- Salles -->
                     <th>Jours</th><!-- Jours -->
                     <th>Horaires</th><!-- Horaires -->
-                    <th>Entraîneurs</th><!-- Entraîneurs -->
+                    <th><a href="index.php?page=contact">Entraîneurs</a></th><!-- Entraîneurs -->
                 </tr>
                 <!-- ligne: - 9 ans -->
                 <tr>
-                    <td rowspan="2">- 9 ans</td><!-- Equipes -->
+                    <th rowspan="2">- 9 ans</th><!-- Equipes -->
                     <td rowspan="2">Guegueniat 2</td><!-- Salles -->
                     <td rowspan="2">Samedi</td><!-- Jours -->
                     <td>9h30 - 10h30</td><!-- Horaires -->
@@ -30,7 +30,7 @@
 
                 <!-- ligne: - 11 ans Masuclin-->
                 <tr>
-                    <td>- 11 ans Masculin</td><!-- Equipes -->
+                    <th>- 11 ans Masculin</th><!-- Equipes -->
                     <td rowspan="2">Guegueniat 2</td><!-- Salles -->
                     <td rowspan="2">Mercredi</td><!-- Jours -->
                     <td>16h30 - 17h30</td><!-- Horaires -->
@@ -39,7 +39,7 @@
 
                 <!-- ligne: - 11 ans Féminin-->
                 <tr>
-                    <td>- 11 ans Féminin</td><!-- Equipes -->
+                    <th>- 11 ans Féminin</th><!-- Equipes -->
                     <!-- Salles -->
                     <!-- Jours -->
                     <td>17h30 - 18h30</td><!-- Horaires -->
@@ -48,7 +48,7 @@
 
                 <!-- ligne: - 12 ans Féminin -->
                 <tr>
-                    <td rowspan="2">- 12 ans Féminin</td><!-- Equipes -->
+                    <th rowspan="2">- 12 ans Féminin</th><!-- Equipes -->
                     <td>Guegueniat 1</td><!-- Salles -->
                     <td></td><!-- Jours -->
                     <td>19h - 20h30</td><!-- Horaires -->
@@ -65,7 +65,7 @@
 
                 <!-- ligne: - 13 ans Féminin -->
                 <tr>
-                    <td rowspan="3">- 13 ans Féminin</td><!-- Equipes -->
+                    <th rowspan="3">- 13 ans Féminin</th><!-- Equipes -->
                     <td>Guegueniat 1</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>17h30 - 18h45</td><!-- Horaires -->
@@ -88,7 +88,7 @@
 
                 <!-- ligne: - 13 ans Masculin -->
                 <tr>
-                    <td rowspan="2">- 13 ans Masculin</td><!-- Equipes -->
+                    <th rowspan="2">- 13 ans Masculin</th><!-- Equipes -->
                     <td>Guegueniat 2</td><!-- Salles -->
                     <td>Mardi</td><!-- Jours -->
                     <td rowspan="2">17h30 - 19h</td><!-- Horaires -->
@@ -104,7 +104,7 @@
 
                 <!-- ligne: - 15 ans Féminin -->
                 <tr>
-                    <td rowspan="3">- 15 ans Féminin</td><!-- Equipes -->
+                    <th rowspan="3">- 15 ans Féminin</th><!-- Equipes -->
                     <td rowspan="2">Jacquard</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>18h45 - 20h</td><!-- Horaires -->
@@ -128,7 +128,7 @@
 
                 <!-- ligne: - 15 ans Masculin -->
                 <tr>
-                    <td rowspan="2">- 15 ans Masculin 2</td><!-- Equipes -->
+                    <th rowspan="2">- 15 ans Masculin 2</th><!-- Equipes -->
                     <td>Guegueniat 2</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>17h30 - 19h</td><!-- Horaires -->
@@ -144,7 +144,7 @@
 
                 <!-- ligne: - 16 ans Féminin -->
                 <tr>
-                    <td rowspan="2">- 16 ans Féminin</td><!-- Equipes -->
+                    <th rowspan="2">- 16 ans Féminin</th><!-- Equipes -->
                     <td rowspan="2">Guegueniat 1</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>18h45 - 20h</td><!-- Horaires -->
@@ -160,7 +160,7 @@
 
                 <!-- ligne: - 18 ans Féminin Nation -->
                 <tr>
-                    <td>- 18 ans Féminin Nation</td><!-- Equipes -->
+                    <th>- 18 ans Féminin Nation</th><!-- Equipes -->
                     <td>Guegueniat 1</td><!-- Salles -->
                     <td>Vendredi</td><!-- Jours -->
                     <td>17h30 - 19h</td><!-- Horaires -->
@@ -169,7 +169,7 @@
 
                 <!-- ligne: - 18 ans Féminin Région -->
                 <tr>
-                    <td>- 18 ans Féminin Région</td><!-- Equipes -->
+                    <th>- 18 ans Féminin Région</th><!-- Equipes -->
                     <td>Guegueniat 2</td><!-- Salles -->
                     <td></td><!-- Jours -->
                     <td>19h - 20h30</td><!-- Horaires -->
@@ -178,7 +178,7 @@
 
                 <!-- ligne: -15 & - 18 ans Masculin -->
                 <tr>
-                    <td rowspan="3">- 15 et -18 ans Masculin</td><!-- Equipes -->
+                    <th rowspan="3">- 15 et -18 ans Masculin</th><!-- Equipes -->
                     <td>Guegueniat 2</td><!-- Salles -->
                     <td></td><!-- Jours -->
                     <td>19h - 20h30</td><!-- Horaires -->
@@ -201,7 +201,7 @@
 
                 <!-- ligne: Sénior Féminin 3 -->
                 <tr>
-                    <td rowspan="2">Sénior Féminin 3</td><!-- Equipes -->
+                    <th rowspan="2">Sénior Féminin 3</th><!-- Equipes -->
                     <td>Pen Ar Streat</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td rowspan="2">19h - 20h30</td><!-- Horaires -->
@@ -217,7 +217,7 @@
 
                 <!-- ligne: Sénior Masculin -->
                 <tr>
-                    <td rowspan="2">Sénior Masculin</td><!-- Equipes -->
+                    <th rowspan="2">Sénior Masculin</th><!-- Equipes -->
                     <td rowspan="2">Guegueniat 1</td><!-- Salles -->
                     <td>Mardi</td><!-- Jours -->
                     <td rowspan="2">20h30 - 22h</td><!-- Horaires -->
@@ -233,7 +233,7 @@
 
                 <!-- ligne: D1 -->
                 <tr>
-                    <td rowspan="6">D1</td><!-- Equipes -->
+                    <th rowspan="6">D1</th><!-- Equipes -->
                     <td rowspan="6">Brest Aréna</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>17h - 18h30</td><!-- Horaires -->
@@ -281,7 +281,7 @@
 
                 <!-- ligne: CFC -->
                 <tr>
-                    <td rowspan="4">CFC</td><!-- Equipes -->
+                    <th rowspan="4">CFC</th><!-- Equipes -->
                     <td>Brest Aréna</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>18h30 - 20h</td><!-- Horaires -->
@@ -310,7 +310,7 @@
                     <!-- Entraîneurs -->
                 </tr>
                 <tr>
-                    <td>CFC + Espoires</td><!-- Equipes -->
+                    <th>CFC + Espoires</th><!-- Equipes -->
                     <td>Brest Aréna</td><!-- Salles -->
                     <td>Vendredi</td><!-- Jours -->
                     <td>18h30 - 20h</td><!-- Horaires -->
@@ -319,7 +319,7 @@
 
                 <!-- ligne: CLE -->
                 <tr>
-                    <td rowspan="3">CLE</td><!-- Equipes -->
+                    <th rowspan="3">CLE</th><!-- Equipes -->
                     <td rowspan="3">Jacquard</td><!-- Salles -->
                     <td>Lundi</td><!-- Jours -->
                     <td>16h30 - 18h45</td><!-- Horaires -->
@@ -342,7 +342,7 @@
 
                 <!-- ligne: Pôle -->
                 <tr>
-                    <td>Pôle</td><!-- Equipes -->
+                    <th>Pôle</th><!-- Equipes -->
                     <td></td><!-- Salles -->
                     <td></td><!-- Jours -->
                     <td></td><!-- Horaires -->

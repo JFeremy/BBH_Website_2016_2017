@@ -46,7 +46,7 @@
 						<li class="BBH_nav BBH_nav_club" role="presentation" class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="index.php?page=club" role="button" aria-haspopup="true" aria-expanded="false">
 							Le Club <span class="caret"></span></a>
-							<ul class="dropdown-menu nav_link">
+							<ul class="dropdown-menu nav_link text-center">
 								<li><a href="index.php?page=club">Infomations</a></li>
 								<li><a href="index.php?page=equipes">Equipes</a></li>
 								<li><a href="index.php?page=entrainements">Entrainements</a></li>
