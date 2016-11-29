@@ -92,8 +92,8 @@ ul.nav.nav-justified>li>a:hover,
 .nav.nav-justified>.active a,
 li.active,
 a#subNavLink:hover,
-#titre_page/*,
-.dropdown-menu.nav_link>li>a*/
+#titre_page,
+.dropdown-menu.nav_link>li>a
 { color: #DDDDDD !important}
 
 .dropdown-menu>li>a,
