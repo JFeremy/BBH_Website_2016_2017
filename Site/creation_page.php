@@ -12,10 +12,14 @@
 				$contenue = 'accueil.php';
 				$scripts = '';
 			break;
-
 			case "club":
 				$titre = 'Le BBH';
 				$contenue = 'club.php';
+				$scripts = '';
+			break;
+			case "equipes":
+				$titre = 'Les équipes';
+				$contenue = 'equipes.php';
 				$scripts = '';
 			break;
 			case "salles":
@@ -28,7 +32,11 @@
 				$contenue = 'entrainement.php';
 				$scripts = '';
 			break;
-
+			case "photo":
+				$titre = 'La galerie photo';
+				$contenue = 'photo.php';
+				$scripts = '';
+			break;
 			case "contact":
 				$titre = 'Contactez nous';
 				$contenue = 'contact.php';

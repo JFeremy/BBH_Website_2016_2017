@@ -1,0 +1,68 @@
+{
+    "ecole": [
+        {
+            "id" : "9",
+            "nom" : "- 9 ans",
+            "icones" : "fa-child"
+        },
+        {
+            "id" : "11",
+            "nom" : "- 11 ans",
+            "icones" : "fa-child"
+        }
+    ],
+    "masculin": [
+        {
+            "id" : "13G",
+            "nom" : "- 13 ans Masculin",
+            "icones" : "fa-male"
+        },
+        {
+            "id" : "15G",
+            "nom" : "- 15 ans Masculin",
+            "icones" : "fa-male"
+        },
+        {
+            "id" : "18G",
+            "nom" : "- 18 ans Masculin",
+            "icones" : "fa-male"
+        },
+        {
+            "id" : "SG",
+            "nom" : "Sénior Masculin",
+            "icones" : "fa-male"
+        }
+    ],
+    "feminin": [
+        {
+            "id" : "13F",
+            "nom" : "- 13 ans Féminin",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "15F",
+            "nom" : "- 15 ans Féminin",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "18FR",
+            "nom" : "- 18 ans Féminin Région",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "18FN",
+            "nom" : "- 18 ans Féminin Nation",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "SF",
+            "nom" : "Sénior Féminin 3",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "GLFH",
+            "nom" : "Gardienne LFH",
+            "icones" : "fa-female"
+        }
+    ]
+}

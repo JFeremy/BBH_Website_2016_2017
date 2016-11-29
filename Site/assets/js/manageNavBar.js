@@ -36,7 +36,6 @@ $(document).ready(function() {
 
               var code = adresse.split("=");
               if (code.length == 2) {
-
                   if (page == code[1]) {
                       $('.BBH_nav_'+ page).addClass('active');
                       break;
@@ -51,6 +50,7 @@ $(document).ready(function() {
                   }
               }
           }
+          else {$('.BBH_nav_accueil').addClass('active');}
       }
   }/*
   var lien = $('.BBH_nav').children();
