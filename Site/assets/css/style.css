@@ -29,7 +29,7 @@ ul.dropdown-menu
 }
 .img_partenaire:hover,
 .img_social:hover {
-  border-radius: 50%;
+  border-radius: 45%;
 }
 .img_partenaire {
   height: 2.5em;
@@ -54,12 +54,13 @@ footer a
 /*####################################*/
 .content
 { padding-top: 6.5em !important; }
+/* * * * LOGO * * * */
+i.fa
+{ margin-right: 20px; }
 
 /* * * * CONTACT * * * */
 i#contact, i#contact_info
 { margin-right: 30px; }
-span#contact
-{ margin-left: 30px; }
 
 /*# # # # # ENTRAINEMENT # # # # #*/
 th a
@@ -75,6 +76,12 @@ img.img-responsive
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
+/*####################################*/
+/*#              ICONS               #*/
+/*####################################*/
+span.glyphicon,
+span#contact
+{ margin-left: 30px; }
 
 /*####################################*/
 /*#              COLOR               #*/
@@ -93,22 +100,34 @@ ul.nav.nav-justified>li>a:hover,
 li.active,
 a#subNavLink:hover,
 #titre_page,
-.dropdown-menu.nav_link>li>a
+.dropdown-menu.nav_link>li>a,
+#equipeFeminin a,
+#equipeMasculin a
 { color: #DDDDDD !important}
 
 .dropdown-menu>li>a,
 th a
 { color: #333333 !important; }
 
-ul.nav.nav-justified>li>a
+ul.nav.nav-justified>li>a,
+h3
 { color: #AAAAAA !important; }
 
 .BBH_title a:hover
-{ color: #1aec29 !important; }
+{ color: rgb(26, 236, 41) !important; }
 
 /*####################################*/
 /*#          BACKGROUND COLOR        #*/
 /*####################################*/
+#equipeMasculin a
+{ background-color: rgba(32, 161, 41, 0.9) !important; }
+#equipeMasculin a:hover
+{ background-color: rgba(32, 161, 41, 0.6) !important; }
+#equipeFeminin a
+{ background-color: rgba(161, 32, 140, 0.9) !important; }
+#equipeFeminin a:hover
+{ background-color: rgba(161, 32, 140, 0.6) !important; }
+
 .BBH_navbar_scroll
 { background-color: #000000 !important; }
 
@@ -155,3 +174,8 @@ a#subNavLink
 { border-bottom-color: rgb(226, 50, 123) !important; }
 li.active a#subNavLink
 { border-color: rgb(226, 50, 123) !important; }
+
+#equipeMasculin a
+{ border-color: rgba(32, 161, 41, 0.9) !important; }
+#equipeFeminin a
+{ border-color: rgba(161, 32, 140, 0.9) !important; }

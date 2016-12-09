@@ -1,10 +1,10 @@
 <div class="row">
-    <div class="col-md-6">
-        <div class="panel panel-default">
-            <div class="panel-heading">Panel heading without title</div>
-            <div class="panel-body">
-            Panel content
-            </div>
+    <div class="col-md-offset-1 col-md-4">
+        <div id="equipeEcole">
+        </div>
+        <div id="equipeFeminin">
+        </div>
+        <div id="equipeMasculin">
         </div>
     </div>
     <div class="col-md-6">

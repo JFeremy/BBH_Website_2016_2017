@@ -1,9 +1,5 @@
 <?
-/*	session_start();
-$_SESSION['titre'] = "Site du BBH: Brest Bretagne Handball - Pôle Formation";
-$_SESSION['Code_titre'] = "AC";
-*/
-include("creation_page.php");
+include("f_create_page.php");
 $page_code = '';
 
 // Evalue le code de la page que l'on souhaite afficher
@@ -37,7 +33,7 @@ include("header.php");
 include("footer.php");
 
 if ($page_scripts != '') {
-	include($page_scripts);
+	require($page_scripts);
 }
 
 ?>

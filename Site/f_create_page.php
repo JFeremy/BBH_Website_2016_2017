@@ -20,7 +20,12 @@
 			case "equipes":
 				$titre = 'Les équipes';
 				$contenue = 'equipes.php';
-				$scripts = '';
+				$scripts = 'scripts_listeequipe.php';
+			break;
+			case "equipe":
+				$titre = 'EQUIPE';
+				$contenue = 'equipe.php';
+				$scripts = 'scripts_equipe.php';
 			break;
 			case "salles":
 				$titre = 'Les salles';

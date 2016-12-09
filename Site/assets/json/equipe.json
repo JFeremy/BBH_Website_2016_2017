@@ -1,67 +1,159 @@
 {
-    "ecole": [
+    "ecole" : [
         {
             "id" : "9",
             "nom" : "- 9 ans",
-            "icones" : "fa-child"
-        },
-        {
-            "id" : "11",
-            "nom" : "- 11 ans",
+            "lien" : "index.php?page=equipe&equipe=9",
+            "stat_id" : "",
+            "match_id" : "",
             "icones" : "fa-child"
         }
     ],
-    "masculin": [
+    "masculin" : [
+        {
+            "id" : "11G1",
+            "nom" : "- 11 ans Masculins 1",
+            "lien" : "index.php?page=equipe&equipe=11G1",
+            "stat_id" : "5846bc77b7064e0c10449509",
+            "match_id" : "5846c74b9575df4d3a4a58f5",
+            "icones" : "fa-child"
+        },
+        {
+            "id" : "11G2",
+            "nom" : "- 11 ans Masculins 2",
+            "lien" : "index.php?page=equipe&equipe=11G2",
+            "stat_id" : "583dc5f1c0b22e632799d2ba",
+            "match_id" : "5846c6e2b7064e0c10449588",
+            "icones" : "fa-child"
+        },
         {
             "id" : "13G",
-            "nom" : "- 13 ans Masculin",
+            "nom" : "- 13 ans Masculins",
+            "lien" : "index.php?page=equipe&equipe=13G",
+            "stat_id" : "5846be1c9575df4d40693ede",
+            "match_id" : "5846d1b09575df4d40694005",
             "icones" : "fa-male"
         },
         {
-            "id" : "15G",
-            "nom" : "- 15 ans Masculin",
+            "id" : "15G1",
+            "nom" : "- 15 ans Masculins 1",
+            "lien" : "index.php?page=equipe&equipe=15G1",
+            "stat_id" : "58497d9fe7ba880c22017c0c",
+            "match_id" : "5846cfc3b7064e0c11d4aab8",
+            "icones" : "fa-male"
+        },
+        {
+            "id" : "15G2",
+            "nom" : "- 15 ans Masculins 2",
+            "lien" : "index.php?page=equipe&equipe=15G2",
+            "stat_id" : "5846c361b7064e0c10449565",
+            "match_id" : "5846d0579575df4d3a4a5975",
             "icones" : "fa-male"
         },
         {
             "id" : "18G",
-            "nom" : "- 18 ans Masculin",
+            "nom" : "- 18 ans Masculins",
+            "lien" : "index.php?page=equipe&equipe=18G",
+            "stat_id" : "5846c1549575df4d3fb65ccd",
+            "match_id" : "5846ce35b7064e0c0bb26e79",
             "icones" : "fa-male"
         },
         {
-            "id" : "SG",
-            "nom" : "Sénior Masculin",
+            "id" : "SG1",
+            "nom" : "Sénior Masculins 1",
+            "lien" : "index.php?page=equipe&equipe=SG1",
+            "stat_id" : "5846c0ba9575df4d3a4a5898",
+            "match_id" : "5846c8209575df4d35881e63",
+            "icones" : "fa-male"
+        },
+        {
+            "id" : "SG2",
+            "nom" : "Sénior Masculins 2",
+            "lien" : "index.php?page=equipe&equipe=SG2",
+            "stat_id" : "",
+            "match_id" : "",
             "icones" : "fa-male"
         }
     ],
-    "feminin": [
+    "feminin" : [
         {
-            "id" : "13F",
-            "nom" : "- 13 ans Féminin",
+            "id" : "11F",
+            "nom" : "- 11 ans Féminines",
+            "lien" : "index.php?page=equipe&equipe=11F",
+            "stat_id" : "583853fbf3828012a1377aa6",
+            "match_id" : "5846c6609575df4d46bb0382",
             "icones" : "fa-female"
         },
         {
-            "id" : "15F",
-            "nom" : "- 15 ans Féminin",
+            "id" : "12F",
+            "nom" : "- 12 ans Féminines",
+            "lien" : "index.php?page=equipe&equipe=12F",
+            "stat_id" : "",
+            "match_id" : "",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "13F1",
+            "nom" : "- 13 ans Féminines 1",
+            "lien" : "index.php?page=equipe&equipe=13F1",
+            "stat_id" : "5846bdd59575df4d3a4a5853",
+            "match_id" : "5846d2569575df4d35881f39",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "13F2",
+            "nom" : "- 13 ans Féminines 2",
+            "lien" : "index.php?page=equipe&equipe=13F2",
+            "stat_id" : "5846bcfc9575df4d3a4a5846",
+            "match_id" : "5846c4a2b7064e0c0bb26de3",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "15F1",
+            "nom" : "- 15 ans Féminines 1",
+            "lien" : "index.php?page=equipe&equipe=15F",
+            "stat_id" : "5846c3889575df4d35881e33",
+            "match_id" : "5846d0f59575df4d3fb65de1",
+            "icones" : "fa-female"
+        },
+        {
+            "id" : "15F2",
+            "nom" : "- 15 ans Féminines 2",
+            "lien" : "index.php?page=equipe&equipe=15F",
+            "stat_id" : "5846bf629575df4d35881e03",
+            "match_id" : "5846d1759575df4d35881f28",
             "icones" : "fa-female"
         },
         {
             "id" : "18FR",
-            "nom" : "- 18 ans Féminin Région",
+            "nom" : "- 18 ans Féminines Région",
+            "lien" : "index.php?page=equipe&equipe=18FR",
+            "stat_id" : "5846c1b4b7064e0c11d4a9e1",
+            "match_id" : "5846cf0e9575df4d35881ef2",
             "icones" : "fa-female"
         },
         {
             "id" : "18FN",
-            "nom" : "- 18 ans Féminin Nation",
+            "nom" : "- 18 ans Féminines Nation",
+            "lien" : "index.php?page=equipe&equipe=18FN",
+            "stat_id" : "5846c17a9575df4d3a4a589d",
+            "match_id" : "5846ce9c9575df4d40693fd6",
             "icones" : "fa-female"
         },
         {
-            "id" : "SF",
-            "nom" : "Sénior Féminin 3",
+            "id" : "SF2",
+            "nom" : "Sénior Féminines 2",
+            "lien" : "index.php?page=equipe&equipe=SF2",
+            "stat_id" : "5846c03fb7064e0c06ae425e",
+            "match_id" : "5846c7bdb7064e0c1854aca1",
             "icones" : "fa-female"
         },
         {
-            "id" : "GLFH",
-            "nom" : "Gardienne LFH",
+            "id" : "SF3",
+            "nom" : "Sénior Féminines 3",
+            "lien" : "index.php?page=equipe&equipe=SF3",
+            "stat_id" : "5846c10c9575df4d46bb034e",
+            "match_id" : "5846c890b7064e0c1854aca7",
             "icones" : "fa-female"
         }
     ]
