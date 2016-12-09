@@ -35,39 +35,35 @@
 				<!-- plansite_BEGIN -->
 				<div class="row">
 					<h2 class="text-center">Plan du site</h2>
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<p class="text-center footer_section1"><a href="index.php?page=accueil">Accueil</a></p>
+						<p class="text-center footer_section1"><a href="index.php?page=photo">Photos</a></p>
 						<p class="text-center footer_section1"><a href="index.php?page=contact">Contact</a></p>
 						<p class="text-center footer_section1"><a href="http://www.brest-bretagnehandball.fr/" target="_blank">Pôle haut niveau</a></p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<p class="text-center footer_section1"><a href="#">Fil info</a></p>
 						<p class="text-center footer_section2"><a href="#">Catégorie 1</a></p>
 						<p class="text-center footer_section2"><a href="#">Catégorie 2</a></p>
 						<p class="text-center footer_section2"><a href="#">Catégorie 3</a></p>
 					</div>
-					<div class="col-md-3">
-						<p class="text-center footer_section1"><a href="index.php?page=club">Le Club</a></p>
-						<p class="text-center footer_section2"><a href="index.php?page=informations">Les informations</a></p>
+					<div class="col-md-2">
+						<p class="text-center footer_section1">Le Club</p>
+						<p class="text-center footer_section2"><a href="index.php?page=club">Les informations</a></p>
+						<p class="text-center footer_section2"><a href="index.php?page=equipes">Les équipes</a></p>
 						<p class="text-center footer_section2"><a href="index.php?page=entrainements">Les entraînements</a></p>
 						<p class="text-center footer_section2"><a href="index.php?page=salles">Les salles</a></p>
 					</div>
-					<div class="col-md-3">
-						<p class="text-center footer_section1"><a href="index.php?page=equipes">Les équipes</a></p>
-						<p class="text-center footer_section2"><a href="#">Ecole de hand</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
-
-						<p class="text-center footer_section2"><a href="#">Féminin</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 3</a></p>
-
-						<p class="text-center footer_section2"><a href="#">Masculin</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 1</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 2</a></p>
-						<p class="text-center footer_section3"><a href="#">Equipe 3</a></p>
+					<div class="col-md-2">
+						<p class="text-center footer_section2" id="link_ecole">Ecole de hand</p>
 					</div>
+					<div class="col-md-2">
+						<p class="text-center footer_section2" id="link_feminin">Féminin</p>
+					</div>
+					<div class="col-md-2">
+						<p class="text-center footer_section2" id="link_masculin">Masculin</p>
+					</div>
+				</div>
 				</div><!-- plansite_END -->
 				<!-- conception_BEGIN -->
 				<div class="row">
@@ -92,6 +88,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<!-- Ajustement de la bar de navigation -->
 		<script src="assets/js/manageNavBar.js"></script>
+		<script src="assets/js/addSitePlanEquipes.js"></script>
+		<script src="assets/js/managePlanSiteEquipe.js"></script>
 		<script src="assets/js/loadTitle.js"></script>
 		<!--script src="assets/js/changeURL.js"></script-->
 

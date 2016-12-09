@@ -3,12 +3,9 @@
   <!-- LES LIENS -->
   <div class="col-md-offset-3 col-md-6">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a href="index.php?page=equipes" type="button" class="btn btn-default">Les équipes
-        <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
-      <a href="index.php?page=entrainements" type="button" class="btn btn-default">Les entraînements
-        <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
-      <a href="index.php?page=salles" type="button" class="btn btn-default">Les salles
-        <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+      <a href="index.php?page=equipes" type="button" class="btn btn-default">Les équipes</a>
+      <a href="index.php?page=entrainements" type="button" class="btn btn-default">Les entraînements</a>
+      <a href="index.php?page=salles" type="button" class="btn btn-default">Les salles</a>
     </div>
   </div>
 </div>
