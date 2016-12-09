@@ -16,7 +16,7 @@ if ($equipe_nom != 'EQUIPE INTROUVABLE') { ?>
 	<div class="row">
 		<div class="table-responsive">
 			<div class="col-md-6 col-md-offset-3">
-				<h3 class="text-center">Entrainements</h3>
+				<h4 class="text-center">Entrainements</h4>
 			    <table class="table">
 					<!-- ligne: Entete -->
 			        <tr>
@@ -26,7 +26,7 @@ if ($equipe_nom != 'EQUIPE INTROUVABLE') { ?>
 			            <th><a href="index.php?page=contact">Entraîneurs</a></th><!-- Entraîneurs -->
 			        </tr>
 
-					<?php include("equipe_entrainement.php");  ?>
+					<?php require("equipe_entrainement.php");  ?>
 			    </table>
 			</div>
 		</div>

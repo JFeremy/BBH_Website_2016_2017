@@ -3,6 +3,7 @@
         {
             "id" : "9",
             "nom" : "- 9 ans",
+            "bouton" : "- 9 ans",
             "lien" : "index.php?page=equipe&equipe=9",
             "stat_id" : "",
             "match_id" : "",
@@ -13,6 +14,7 @@
         {
             "id" : "11G1",
             "nom" : "- 11 ans Masculins 1",
+            "bouton" : "- 11 ans  1",
             "lien" : "index.php?page=equipe&equipe=11G1",
             "stat_id" : "5846bc77b7064e0c10449509",
             "match_id" : "5846c74b9575df4d3a4a58f5",
@@ -21,6 +23,7 @@
         {
             "id" : "11G2",
             "nom" : "- 11 ans Masculins 2",
+            "bouton" : "- 11 ans  2",
             "lien" : "index.php?page=equipe&equipe=11G2",
             "stat_id" : "583dc5f1c0b22e632799d2ba",
             "match_id" : "5846c6e2b7064e0c10449588",
@@ -29,6 +32,7 @@
         {
             "id" : "13G",
             "nom" : "- 13 ans Masculins",
+            "bouton" : "- 13 ans",
             "lien" : "index.php?page=equipe&equipe=13G",
             "stat_id" : "5846be1c9575df4d40693ede",
             "match_id" : "5846d1b09575df4d40694005",
@@ -37,6 +41,7 @@
         {
             "id" : "15G1",
             "nom" : "- 15 ans Masculins 1",
+            "bouton" : "- 15 ans  1",
             "lien" : "index.php?page=equipe&equipe=15G1",
             "stat_id" : "58497d9fe7ba880c22017c0c",
             "match_id" : "5846cfc3b7064e0c11d4aab8",
@@ -45,6 +50,7 @@
         {
             "id" : "15G2",
             "nom" : "- 15 ans Masculins 2",
+            "bouton" : "- 15 ans  2",
             "lien" : "index.php?page=equipe&equipe=15G2",
             "stat_id" : "5846c361b7064e0c10449565",
             "match_id" : "5846d0579575df4d3a4a5975",
@@ -53,6 +59,7 @@
         {
             "id" : "18G",
             "nom" : "- 18 ans Masculins",
+            "bouton" : "- 18 ans",
             "lien" : "index.php?page=equipe&equipe=18G",
             "stat_id" : "5846c1549575df4d3fb65ccd",
             "match_id" : "5846ce35b7064e0c0bb26e79",
@@ -60,7 +67,8 @@
         },
         {
             "id" : "SG1",
-            "nom" : "Sénior Masculins 1",
+            "nom" : "Senior Masculins 1",
+            "bouton" : "Senior  1",
             "lien" : "index.php?page=equipe&equipe=SG1",
             "stat_id" : "5846c0ba9575df4d3a4a5898",
             "match_id" : "5846c8209575df4d35881e63",
@@ -68,7 +76,8 @@
         },
         {
             "id" : "SG2",
-            "nom" : "Sénior Masculins 2",
+            "nom" : "Senior Masculins 2",
+            "bouton" : "Senior  2",
             "lien" : "index.php?page=equipe&equipe=SG2",
             "stat_id" : "",
             "match_id" : "",
@@ -79,6 +88,7 @@
         {
             "id" : "11F",
             "nom" : "- 11 ans Féminines",
+            "bouton" : "- 11 ans",
             "lien" : "index.php?page=equipe&equipe=11F",
             "stat_id" : "583853fbf3828012a1377aa6",
             "match_id" : "5846c6609575df4d46bb0382",
@@ -87,6 +97,7 @@
         {
             "id" : "12F",
             "nom" : "- 12 ans Féminines",
+            "bouton" : "- 12 ans",
             "lien" : "index.php?page=equipe&equipe=12F",
             "stat_id" : "",
             "match_id" : "",
@@ -95,6 +106,7 @@
         {
             "id" : "13F1",
             "nom" : "- 13 ans Féminines 1",
+            "bouton" : "- 13 ans  1",
             "lien" : "index.php?page=equipe&equipe=13F1",
             "stat_id" : "5846bdd59575df4d3a4a5853",
             "match_id" : "5846d2569575df4d35881f39",
@@ -103,6 +115,7 @@
         {
             "id" : "13F2",
             "nom" : "- 13 ans Féminines 2",
+            "bouton" : "- 13 ans  2",
             "lien" : "index.php?page=equipe&equipe=13F2",
             "stat_id" : "5846bcfc9575df4d3a4a5846",
             "match_id" : "5846c4a2b7064e0c0bb26de3",
@@ -111,7 +124,8 @@
         {
             "id" : "15F1",
             "nom" : "- 15 ans Féminines 1",
-            "lien" : "index.php?page=equipe&equipe=15F",
+            "bouton" : "- 15 ans  1",
+            "lien" : "index.php?page=equipe&equipe=15F1",
             "stat_id" : "5846c3889575df4d35881e33",
             "match_id" : "5846d0f59575df4d3fb65de1",
             "icones" : "fa-female"
@@ -119,7 +133,8 @@
         {
             "id" : "15F2",
             "nom" : "- 15 ans Féminines 2",
-            "lien" : "index.php?page=equipe&equipe=15F",
+            "bouton" : "- 15 ans  2",
+            "lien" : "index.php?page=equipe&equipe=15F2",
             "stat_id" : "5846bf629575df4d35881e03",
             "match_id" : "5846d1759575df4d35881f28",
             "icones" : "fa-female"
@@ -127,6 +142,7 @@
         {
             "id" : "18FR",
             "nom" : "- 18 ans Féminines Région",
+            "bouton" : "- 18 ans  Région",
             "lien" : "index.php?page=equipe&equipe=18FR",
             "stat_id" : "5846c1b4b7064e0c11d4a9e1",
             "match_id" : "5846cf0e9575df4d35881ef2",
@@ -135,6 +151,7 @@
         {
             "id" : "18FN",
             "nom" : "- 18 ans Féminines Nation",
+            "bouton" : "- 18 ans  Nation",
             "lien" : "index.php?page=equipe&equipe=18FN",
             "stat_id" : "5846c17a9575df4d3a4a589d",
             "match_id" : "5846ce9c9575df4d40693fd6",
@@ -142,7 +159,8 @@
         },
         {
             "id" : "SF2",
-            "nom" : "Sénior Féminines 2",
+            "nom" : "Senior Féminines 2",
+            "bouton" : "Senior  2",
             "lien" : "index.php?page=equipe&equipe=SF2",
             "stat_id" : "5846c03fb7064e0c06ae425e",
             "match_id" : "5846c7bdb7064e0c1854aca1",
@@ -150,7 +168,8 @@
         },
         {
             "id" : "SF3",
-            "nom" : "Sénior Féminines 3",
+            "nom" : "Senior Féminines 3",
+            "bouton" : "Senior  3",
             "lien" : "index.php?page=equipe&equipe=SF3",
             "stat_id" : "5846c10c9575df4d46bb034e",
             "match_id" : "5846c890b7064e0c1854aca7",

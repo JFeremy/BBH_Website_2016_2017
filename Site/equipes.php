@@ -1,10 +1,10 @@
 <div class="row">
     <div class="col-md-offset-1 col-md-4">
-        <div id="equipeEcole">
+        <div id="equipeEcole" class="row">
         </div>
-        <div id="equipeFeminin">
+        <div id="equipeFeminin" class="row">
         </div>
-        <div id="equipeMasculin">
+        <div id="equipeMasculin" class="row">
         </div>
     </div>
     <div class="col-md-6">
