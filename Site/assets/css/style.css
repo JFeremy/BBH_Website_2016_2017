@@ -47,10 +47,8 @@ ul.dropdown-menu
 footer a
 { font-style: italic; }
 .footer_section1
-{ font-size: medium; }
-.footer_section2
 { font-size: small; }
-.footer_section3
+.footer_section2
 { font-size: x-small; }
 /*####################################*/
 /*#            CONTAINER             #*/
@@ -78,7 +76,11 @@ img.img-responsive
 
 /*# # # # # EQUIPES # # # # #*/
 .equipes_btn
-{ margin-bottom: 5px ;}
+{ margin-bottom: 5px; }
+
+/*# # # # # BLOG # # # # #*/
+iframe
+{ border: none !important; }
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/

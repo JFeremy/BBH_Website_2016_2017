@@ -4,7 +4,7 @@
 		<title>titre</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type="image/png" href="images/bbhfavicon.png" />
+		<link rel="icon" type="image/png" href="assets/images/bbhfavicon.png" />
 
 		<!-- CSS BOOTSTRAP -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -12,13 +12,11 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<!-- JS FONTAWESOME -->
 		<script src="https://use.fontawesome.com/eef56b002c.js"></script>
-		<!-- JS ALERTJS -->
-		<!--script type="text/javascript" src="assets/js/alertjs.js"></script-->
+		<!-- JS Redimentionnement du blog -->
+		<script src="assets/js/iframe_autoheight.js"></script>
 	</head>
 
 	<body>
-	<?php //include("popup.php"); ?>
-
 		<!-- nav_BEGIN -->
 		<nav id="BBH_navbar" class="navbar navbar-default navbar-fixed-top BBH_navbar_top">
 			<div class="container-fluid">
@@ -42,10 +40,26 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav nav-justified">
 						<li class="BBH_nav BBH_nav_accueil"><a href="index.php?page=accueil">Accueil</a></li>
-						<li class="BBH_nav BBH_nav_blog"><a href="index.php?page=blog">Fil Info</a></li>
+						<li class="BBH_nav BBH_nav_blog" role="presentation" class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="index.php?page=blog" role="button" aria-haspopup="true" aria-expanded="false">
+							Fil Info<span class="caret"></span></a>
+							<ul class="dropdown-menu nav_link text-center">
+								<li><a href="index.php?page=blog">Articles récents</a></li>
+								<?php
+								$args = array(
+									'orderby' => 'name',
+									'parent' => 0
+								  );
+								$categories = get_categories( $args );
+								foreach ( $categories as $category ) {
+									echo '<li><a href="index.php?page=blog&blog='.get_category_link( $category->term_id ) .'">' . $category->name . '</a></li>';
+								}
+								?>
+							</ul>
+						</li>
 						<li class="BBH_nav BBH_nav_club" role="presentation" class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="index.php?page=club" role="button" aria-haspopup="true" aria-expanded="false">
-							Le Club <span class="caret"></span></a>
+							Le Club<span class="caret"></span></a>
 							<ul class="dropdown-menu nav_link text-center">
 								<li><a href="index.php?page=club">Infomations</a></li>
 								<li><a href="index.php?page=equipes">Equipes</a></li>
@@ -53,7 +67,6 @@
 								<li><a href="index.php?page=salles">Salles</a></li>
 							</ul>
 						</li>
-						<li class="BBH_nav BBH_nav_astreinte"><a href="index.php?page=astreinte">Astreintes</a></li>
 						<li class="BBH_nav BBH_nav_photo"><a href="index.php?page=photo">Photos</a></li>
 						<li class="BBH_nav BBH_nav_contact"><a href="index.php?page=contact">Contact</a></li>
 						<li class="BBH_nav"><a href="http://www.brest-bretagnehandball.fr/" target="_blanc">Pôle Haut Niveau</a></li>

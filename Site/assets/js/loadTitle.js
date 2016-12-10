@@ -73,6 +73,7 @@ function title_anim() {
 	}
 }
 
-title_start();
-
-setTimeout(function(){title_anim();}, 1000);
+$( window ).load(function() {
+	title_start();
+	setTimeout(function(){title_anim();}, 1000);
+});

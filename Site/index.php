@@ -12,9 +12,9 @@ else {
 
 list ($page_titre, $page_contenue, $page_scripts) = create_page($page_code);
 
+define('WP_USE_THEMES', false); // aucun besoin d'utiliser le thème actif donc on le désactive
+require('blog/wp-load.php'); // on include le "moteur" wordpress
 include("header.php");
-//define('WP_USE_THEMES', false); // aucun besoin d'utiliser le thème actif donc on le désactive
-//require('blog/wp-load.php'); // on include le "moteur" wordpress
 
 	echo '<!-- content_BEGIN -->';
 	echo '<div class="content">';

@@ -27,38 +27,36 @@ $(document).ready(function() {
 
   var page = $_GET('page');
   var liens = $(".BBH_nav");
-  var lien = liens.children()
+  var lien = liens.children('a');
 
   for (var i = 0; i < liens.length; i++) {
       var adresse = lien[i].href;
-      if (typeof adresse != "undefined") {
-          if (adresse.indexOf("=") != 1) {
+      if (typeof adresse != "undefined" || adresse.indexOf("=") != 1) {
+          var code = adresse.split("=");
 
-              var code = adresse.split("=");
-              if (code.length == 2) {
-                  if (page == code[1]) {
-                      $('.BBH_nav_'+ page).addClass('active');
-                      break;
-                  }
-                  else if ( (page == 'club' ||
-                             page == 'equipes' ||
-                             page == 'equipe' ||
-                             page == 'entrainements' ||
-                             page == 'salles') &&
-                            (code[1] == 'club') ) {
-                       $('.BBH_nav_'+code[1]).addClass('active');
-                       break;
-                  }
+          if (code.length > 1) {
+              if (code[1].indexOf("&") == 1) {
+                 var souscode = adresse.split("&");
+                 code[1] = souscode[1];
+              }
+
+              if (page == code[1]) {
+                  $('.BBH_nav_'+ page).addClass('active');
+                  break;
+              }
+              else if ( (page == 'club' ||
+                         page == 'equipes' ||
+                         page == 'equipe' ||
+                         page == 'entrainements' ||
+                         page == 'salles') &&
+                        (code[1] == 'club') ) {
+                   $('.BBH_nav_'+code[1]).addClass('active');
+                   break;
               }
           }
-          else {$('.BBH_nav_accueil').addClass('active');}
       }
-      //else {$('.BBH_nav_accueil').addClass('active');}
-  }/*
-  var lien = $('.BBH_nav').children();
-  var res = lien[0].href.split("=");
-  var nb_element_de_class = $(".BBH_nav").length;
-  alert(res[1] + ":" + nb_element_de_class);*/
+      else {$('.BBH_nav_accueil').addClass('active');}
+  }
 });
 
 function $_GET(param) {
@@ -75,6 +73,5 @@ function $_GET(param) {
 	}
 	return vars;
 }
-/*
-var titre = sessionStorage.getItem("titre");
-window.parent.document.title = titre;*/
+
+window.parent.document.title = $('#titre_page').text();

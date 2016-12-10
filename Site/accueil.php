@@ -1,55 +1,73 @@
 <!-- accueil_BEGIN -->
     <div class="col-md-6">
-        <!-- Informations générales -->
         <div class="col-md-6">
+            <!-- Informations générales -->
             <div class="panel panel-default">
+                <div class="panel-heading">Informations</div>
                 <ul class="list-group">
                     <li class="list-group-item">
                         <h3 class="panel-title text-center">
-                            <a href="#">Abonnez-vous !</a>
+                            <a href="index.php?page=blog&blog=/blog/abonnez-vous/">Abonnez-vous !</a>
                         </h3>
                     </li>
                     <li class="list-group-item">
                         <h3 class="panel-title text-center">
-                            <a href="#">Devenir Bénévole !</a>
+                            <a href="index.php?page=blog&blog=/blog/devenez-benevole/">Devenir Bénévole !</a>
                         </h3>
                     </li>
                     <li class="list-group-item">
                         <h3 class="panel-title text-center">
-                            <a href="#">La Lucarne</a>
+                            <a href="index.php?page=blog&blog=/blog/category/astreintes/">Les Astreintes</a>
                         </h3>
                     </li>
                 </ul>
             </div>
-        </div>
-        <!-- Evénements -->
-        <div class="col-md-6">
+            <br>
+            <!-- Evénements -->
             <div class="panel panel-default">
-                <div class="panel-heading"><h3 class="panel-title text-center">Événements</h3></div>
+                <div class="panel-heading">Événements</div>
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <h3 class="panel-title text-center">
-                            <a href="#">Soirée 1</a>
-                        </h3>
-                    </li>
-                    <li class="list-group-item">
-                        <h3 class="panel-title text-center">
-                            <a href="#">Soirée 2</a>
-                        </h3>
-                    </li>
+                    <?php
+                        $args = array(
+                            'category_name' => 'evenement',
+                            'showposts'=> 3,
+                        );
+
+                        $eventPosts = new WP_Query();
+                        $eventPosts->query($args);
+
+                        while ($eventPosts->have_posts()) : $eventPosts->the_post();
+                            $article = get_permalink();?>
+
+                            <li class="list-group-item text-center">
+                                <h3 class="panel-title text-center">
+                                    <a href=<?php echo '"index.php?page=blog&blog='.$article .'"'; ?> >
+                                        <?php the_title(); ?>
+                                    </a>
+                                </h3>
+                            </li>
+                    <?php endwhile;	?>
                 </ul>
             </div>
         </div>
         <!-- Artciles récents -->
-        <div class="col-md-12">
+        <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">Articles Récents</div>
                 <ul class="list-group">
-                    <li class="list-group-item">Article1</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
+                    <?php
+                        $recentPosts = new WP_Query();
+                        $recentPosts->query('showposts=8');
+
+                        while ($recentPosts->have_posts()) : $recentPosts->the_post();
+                            $article = get_permalink();?>
+
+                            <li class="list-group-item text-center">
+                                <a href=<?php echo '"index.php?page=blog&blog='.$article .'"'; ?> >
+                                    <?php the_title(); ?>
+                                </a>
+                            </li>
+                    <?php endwhile;	?>
                 </ul>
             </div>
         </div>

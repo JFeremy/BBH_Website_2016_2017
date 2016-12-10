@@ -13,7 +13,7 @@
 								<img src="assets/images/ico_gg.png" class="img_social" alt="Icône Google Plus" ></a>
 							<a href="https://www.youtube.com/channel/UCT3nfonoC_jrZkNrSnbgbpw" target="_blank" class="icon" title="YouTube">
 								<img src="assets/images/ico_yt.png" class="img_social" alt="Icône YouTube" ></a>
-							<a href="blog.php?blog=/blog/abonnez-vous/" target="_blank" class="icon" title="Newsletter">
+							<a href="index.php?page=blog&blog=/blog/abonnez-vous/" target="_blank" class="icon" title="Newsletter">
 								<img src="assets/images/ico_nl.png" class="img_social" alt="Icône Newsletter" ></a>
 						</p>
 					</div><!-- reseau_END -->
@@ -42,10 +42,18 @@
 						<p class="text-center footer_section1"><a href="http://www.brest-bretagnehandball.fr/" target="_blank">Pôle haut niveau</a></p>
 					</div>
 					<div class="col-md-2">
-						<p class="text-center footer_section1"><a href="#">Fil info</a></p>
-						<p class="text-center footer_section2"><a href="#">Catégorie 1</a></p>
-						<p class="text-center footer_section2"><a href="#">Catégorie 2</a></p>
-						<p class="text-center footer_section2"><a href="#">Catégorie 3</a></p>
+						<p class="text-center footer_section1">Fil info</p>
+						<p class="text-center footer_section2"><a href="index.php?page=blog">Articles récents</a></p>
+						<?php
+						$args = array(
+							'orderby' => 'name',
+							'parent' => 0
+						  );
+						$categories = get_categories( $args );
+						foreach ( $categories as $category ) {
+							echo '<p class="text-center footer_section2"><a href="index.php?page=blog&blog='.get_category_link( $category->term_id ) .'">' . $category->name . '</a></p>';
+						}
+						?>
 					</div>
 					<div class="col-md-2">
 						<p class="text-center footer_section1">Le Club</p>
@@ -55,13 +63,13 @@
 						<p class="text-center footer_section2"><a href="index.php?page=salles">Les salles</a></p>
 					</div>
 					<div class="col-md-2">
-						<p class="text-center footer_section2" id="link_ecole">Ecole de hand</p>
+						<p class="text-center footer_section3" id="link_ecole">Ecole de hand</p>
 					</div>
 					<div class="col-md-2">
-						<p class="text-center footer_section2" id="link_feminin">Féminin</p>
+						<p class="text-center footer_section3" id="link_feminin">Féminin</p>
 					</div>
 					<div class="col-md-2">
-						<p class="text-center footer_section2" id="link_masculin">Masculin</p>
+						<p class="text-center footer_section3" id="link_masculin">Masculin</p>
 					</div>
 				</div><!-- plansite_END -->
 

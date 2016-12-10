@@ -4,7 +4,7 @@ function addSitePlanEquipes(id,donnees) {
     for (var i = donnees.length-1; i >= 0; i--) {
         var p = $("<p></p>").
             addClass("text-center").
-            addClass("footer_section3");
+            addClass("footer_section2");
 
         var a = $('<a></a>').
             attr('href', donnees[i].lien);

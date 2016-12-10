@@ -12,6 +12,11 @@
 				$contenue = 'accueil.php';
 				$scripts = '';
 			break;
+			case "blog":
+				$titre = 'Fil info';
+				$contenue = 'blog.php';
+				$scripts = '';
+			break;
 			case "club":
 				$titre = 'Le BBH';
 				$contenue = 'club.php';

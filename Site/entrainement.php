@@ -1,6 +1,6 @@
 <!-- entrainement_BEGIN -->
 <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
+    <div class="col-sm-6 col-md-6 col-lg-12">
         <div class="table-responsive">
             <table class="table">
         <!-- ligne: Entete -->

@@ -1,13 +1,9 @@
 <!-- club_BEGIN -->
 <div class="row">
   <!-- LES LIENS -->
-  <div class="col-md-offset-3 col-md-6">
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a href="index.php?page=equipes" type="button" class="btn btn-default">Les équipes</a>
-      <a href="index.php?page=entrainements" type="button" class="btn btn-default">Les entraînements</a>
-      <a href="index.php?page=salles" type="button" class="btn btn-default">Les salles</a>
-    </div>
-  </div>
+    <a href="index.php?page=equipes" type="button" class="col-md-offset-3 col-md-2 btn btn-default">Les équipes</a>
+    <a href="index.php?page=entrainements" type="button" class="col-md-2 btn btn-default">Les entraînements</a>
+    <a href="index.php?page=salles" type="button" class="col-md-2 btn btn-default">Les salles</a>
 </div>
 <br>
 <div class="row">
