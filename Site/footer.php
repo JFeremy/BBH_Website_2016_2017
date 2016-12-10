@@ -63,20 +63,28 @@
 					<div class="col-md-2">
 						<p class="text-center footer_section2" id="link_masculin">Masculin</p>
 					</div>
-				</div>
 				</div><!-- plansite_END -->
+
 				<!-- conception_BEGIN -->
 				<div class="row">
-					<div class="col-md-3">
-							<p class="text-center">&copy; Brest Bretagne Handball Club</p>
+					<div class="col-md-4">
+						<p class="text-center">&copy; Brest Bretagne Handball - Pôle Formation</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-4">
+						<p class="text-center">All rights reserved</p>
+					</div>
+					<div class="col-md-4">
+						<p class="text-center">Mis à jour: Décembre 2016</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
 						<p class="text-center">Concepteur: <a href="mailto:fumeron.jeremy@live.fr">Jérémy Fumeron</a></p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<p class="text-center">Designer: <a href="http://www.arnauddupiol.com/" target="_blank">Arnaud Dupiol</a></p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<p class="text-center">Rédacteur: <a href="mailto:jf.perfezou@brest-bretagnehandball.fr">Jean-François Perfezou</a></p>
 					</div>
 				</div><!-- conception_END -->
@@ -88,8 +96,10 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<!-- Ajustement de la bar de navigation -->
 		<script src="assets/js/manageNavBar.js"></script>
+		<!-- Ajout des équipes au plan du site -->
 		<script src="assets/js/addSitePlanEquipes.js"></script>
 		<script src="assets/js/managePlanSiteEquipe.js"></script>
+		<!-- Ajout de l'effet sur le titre -->
 		<script src="assets/js/loadTitle.js"></script>
 		<!--script src="assets/js/changeURL.js"></script-->
 

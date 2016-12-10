@@ -20,17 +20,17 @@
 			case "equipes":
 				$titre = 'Les équipes';
 				$contenue = 'equipes.php';
-				$scripts = 'scripts_listeequipe.php';
+				$scripts = 'assets/php/scripts/scripts_listeequipe.php';
 			break;
 			case "equipe":
 				$titre = 'EQUIPE';
 				$contenue = 'equipe.php';
-				$scripts = 'scripts_equipe.php';
+				$scripts = 'assets/php/scripts/scripts_equipe.php';
 			break;
 			case "salles":
 				$titre = 'Les salles';
 				$contenue = 'salle.php';
-				$scripts = 'scripts_salle.php';
+				$scripts = 'assets/php/scripts/scripts_salle.php';
 			break;
 			case "entrainements":
 				$titre = 'Les entraînements';
@@ -45,7 +45,7 @@
 			case "contact":
 				$titre = 'Contactez nous';
 				$contenue = 'contact.php';
-				$scripts = 'scripts_contact.php';
+				$scripts = 'assets/php/scripts/scripts_contact.php';
 			break;
 
 			default:

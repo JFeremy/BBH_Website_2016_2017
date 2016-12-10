@@ -1,3 +1,4 @@
+<!-- equipes_BEGIN -->
 <div class="row">
     <div class="col-md-offset-1 col-md-4">
         <div id="equipeEcole" class="row">
@@ -12,3 +13,4 @@
         <iframe id="583c39e6c0b22e0c13547508" src="https://scorenco.com/widget/583c39e6c0b22e0c13547508/?auto_height=true" style="display: block; width: 100%; overflow: auto; margin: auto; border-width: 0px;" scrolling="no"></iframe>
     </div>
 </div>
+<!-- equipes_END -->

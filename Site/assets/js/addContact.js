@@ -30,7 +30,7 @@ function addContact(id,part,donnees) {
     var div_panel_heading = $('<div></div>').
                   addClass('panel-heading').
                   attr('role', 'tab');
-    var div_panel_title = $('<h4></h4>').
+    var div_panel_title = $('<h3></h3>').
                   addClass('panel-title').
                   addClass('text-center');
     var title_link = $('<a></a>').

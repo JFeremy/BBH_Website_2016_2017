@@ -42,6 +42,7 @@ $(document).ready(function() {
                   }
                   else if ( (page == 'club' ||
                              page == 'equipes' ||
+                             page == 'equipe' ||
                              page == 'entrainements' ||
                              page == 'salles') &&
                             (code[1] == 'club') ) {
@@ -52,7 +53,7 @@ $(document).ready(function() {
           }
           else {$('.BBH_nav_accueil').addClass('active');}
       }
-      else {$('.BBH_nav_accueil').addClass('active');}
+      //else {$('.BBH_nav_accueil').addClass('active');}
   }/*
   var lien = $('.BBH_nav').children();
   var res = lien[0].href.split("=");

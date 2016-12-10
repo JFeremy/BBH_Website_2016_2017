@@ -1,5 +1,5 @@
 <?
-include("f_create_page.php");
+include("assets/php/functions/f_create_page.php");
 $page_code = '';
 
 // Evalue le code de la page que l'on souhaite afficher

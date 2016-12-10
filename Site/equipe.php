@@ -1,5 +1,6 @@
 <?php
-include("f_find_equipe_widget.php");
+include("assets/php/functions/f_find_equipe_widget.php");
+
 // On détermine l'équipe choisie
 if (empty($_GET['equipe']) || !isset($_GET['equipe'])) {
 	$page_equipe = 'equipe';
