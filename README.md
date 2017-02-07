@@ -1,4 +1,5 @@
-# Brest Bretagne Handball <a href="http://brest-bretagnehandball.com" target="_blank"><small>http://brest-bretagnehandball.com</small></a>
+# Brest Bretagne Handball 
+<a href="http://brest-bretagnehandball.com" target="_blank"><small>http://brest-bretagnehandball.com</small></a>
 <h1>Sommaire</h1>
 <ol>
   <li>Introduction</li>
@@ -19,11 +20,11 @@
 <p>Pour la partie information, il s'agit d'une base de donnée NoSQL en JSON.</p>
 <hr>
 
-<h3>2 - Blog</h3>
+<h1>2 - Blog</h1>
 <hr>
 
-<h3>3 - Score'n Co</h3>
+<h1>3 - Score'n Co</h1>
 <hr>
 
-<h3>4 - Informations</h3>
+<h1>4 - Informations</h1>
 <hr>
