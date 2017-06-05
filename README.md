@@ -199,7 +199,7 @@ Grâce à ce langage, on a créé un « moteur de template ». C’est à dire
 </p>
 
   <h2>Frameworks</h2>
-  <h1><a href="http://getbootstrap.com/getting-started/">BootStrap</a></h1>
+  <h3><a href="http://getbootstrap.com/getting-started/">BootStrap</a></h3>
   <p>BootStrap est un framework offrant la possibilité de concevoir notre site responsive sans avoir besoin de tout faire nous même, il permet de gagner du temps sur le design en évitant la conception de toutes les méthodes pour afficher le moindre élément afin de garder une certaine homogénéité.</p>
 
   <h3><a href="https://jquery.com/">JQuery</a></h3>
